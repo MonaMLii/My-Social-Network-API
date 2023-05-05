@@ -1,5 +1,4 @@
-https://img.shields.io/badge/<License>-<MIT>-<ff69b4>
-
+[![License](https://img.shields.io/badge/License-MIT-ff69b4.svg)](https://opensource.org/licenses/MIT)
 
 # My-Social-Network-API
 
