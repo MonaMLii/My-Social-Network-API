@@ -48,7 +48,7 @@ console.log(User);
   // Add user to the collection and await the results
   await User.collection.insertMany(userData);
 
-  // Add courses to the collection and await the results
+  // Add thought to the collection and await the results
   await Thought.collection.insertOne({
     thoughtText: 'thought',
     username: "mona123",

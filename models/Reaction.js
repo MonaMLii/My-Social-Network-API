@@ -1,4 +1,4 @@
-const { Schema, model } = require('mongoose');
+const { Schema } = require('mongoose');
 const dayjs = require('dayjs');
 
 // Schema to create a reaction model
