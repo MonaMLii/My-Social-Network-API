@@ -43,6 +43,24 @@ module.exports = {
       res.status(500).json(err);
     }
   },
+    // Update a thought
+    async updateThought(req, res) {
+      try {
+        const thought = await Thought.findOneAndUpdate(
+          { _id: req.params.thoughtId },
+          { $set: req.body },
+          { runValidators: true, new: true }
+        );
+  
+        if (!thought) {
+          res.status(404).json({ message: 'No thought with this id!' });
+        }
+  
+        res.json(thought);
+      } catch (err) {
+        res.status(500).json(err);
+      }
+    },
   // Delete a thought and remove them from the course
   async deleteThought(req, res) {
     try {
