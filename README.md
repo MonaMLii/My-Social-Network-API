@@ -45,6 +45,9 @@ MIT
 
 ## Mock-Up
 
+![Untitled_ May 9, 2023 5_49 PM](https://github.com/MonaMLii/My-Social-Network-API/assets/89316044/5e181be5-93ff-465f-a62c-857962e00bbd)
+
+
 [Untitled_ May 5, 2023 9_36 PM.webm](https://user-images.githubusercontent.com/89316044/236602160-112aacbf-247d-4cd6-96d1-8d1ddc18ecd8.webm)
 
 [Untitled_ May 5, 2023 9_42 PM.webm](https://user-images.githubusercontent.com/89316044/236602165-253fb57f-22bd-45b0-b840-76312e01463e.webm)
